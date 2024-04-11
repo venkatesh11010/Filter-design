@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.29)  11 APR 2024 23:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.29)  12 APR 2024 00:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1244,85 +1244,89 @@ LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10> not available
 <figs/pole-zero_plot.png, id=92, 462.528pt x 346.896pt>
 File: figs/pole-zero_plot.png Graphic file (type png)
 <use figs/pole-zero_plot.png>
-Package pdftex.def Info: figs/pole-zero_plot.png  used on input line 173.
-(pdftex.def)             Requested size: 310.4979pt x 232.8849pt.
+Package pdftex.def Info: figs/pole-zero_plot.png  used on input line 177.
+(pdftex.def)             Requested size: 345.0pt x 258.76335pt.
  [3]
-<figs/fig1.png, id=108, 462.528pt x 346.896pt>
+<figs/fig1.png, id=111, 462.528pt x 346.896pt>
 File: figs/fig1.png Graphic file (type png)
 <use figs/fig1.png>
-Package pdftex.def Info: figs/fig1.png  used on input line 196.
-(pdftex.def)             Requested size: 310.4979pt x 232.8849pt.
+Package pdftex.def Info: figs/fig1.png  used on input line 204.
+(pdftex.def)             Requested size: 345.0pt x 258.76335pt.
  [4 <./figs/pole-zero_plot.png>]
-<figs/fig2.png, id=119, 462.528pt x 346.896pt>
+<figs/fig2.png, id=124, 462.528pt x 346.896pt>
 File: figs/fig2.png Graphic file (type png)
 <use figs/fig2.png>
-Package pdftex.def Info: figs/fig2.png  used on input line 202.
-(pdftex.def)             Requested size: 310.4979pt x 232.8849pt.
-<figs/fig3.png, id=124, 462.528pt x 346.896pt>
+Package pdftex.def Info: figs/fig2.png  used on input line 212.
+(pdftex.def)             Requested size: 345.0pt x 258.76335pt.
+
+[5 <./figs/fig1.png>]
+<figs/fig3.png, id=136, 462.528pt x 346.896pt>
 File: figs/fig3.png Graphic file (type png)
 <use figs/fig3.png>
-Package pdftex.def Info: figs/fig3.png  used on input line 208.
-(pdftex.def)             Requested size: 310.4979pt x 232.8849pt.
-
-[5 <./figs/fig1.png> <./figs/fig2.png>]
-<figs/fig4.png, id=136, 462.528pt x 346.896pt>
+Package pdftex.def Info: figs/fig3.png  used on input line 220.
+(pdftex.def)             Requested size: 345.0pt x 258.76335pt.
+ [6 <./figs/fig2.png>] [7 <./figs/fig3.png>]
+<figs/fig4.png, id=160, 462.528pt x 346.896pt>
 File: figs/fig4.png Graphic file (type png)
 <use figs/fig4.png>
-Package pdftex.def Info: figs/fig4.png  used on input line 238.
+Package pdftex.def Info: figs/fig4.png  used on input line 252.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
- [6 <./figs/fig3.png>] [7 <./figs/fig4.png>]
-<figs/hlp.png, id=164, 462.528pt x 346.896pt>
+ [8 <./figs/fig4.png>]
+<figs/hlp.png, id=176, 462.528pt x 346.896pt>
 File: figs/hlp.png Graphic file (type png)
 <use figs/hlp.png>
-Package pdftex.def Info: figs/hlp.png  used on input line 313.
-(pdftex.def)             Requested size: 276.00105pt x 207.01175pt.
- [8]
-<figs/Hlp-real.png, id=180, 462.528pt x 346.896pt>
+Package pdftex.def Info: figs/hlp.png  used on input line 329.
+(pdftex.def)             Requested size: 345.0pt x 258.76335pt.
+ [9]
+<figs/Hlp-real.png, id=195, 462.528pt x 346.896pt>
 File: figs/Hlp-real.png Graphic file (type png)
 <use figs/Hlp-real.png>
-Package pdftex.def Info: figs/Hlp-real.png  used on input line 320.
-(pdftex.def)             Requested size: 276.00105pt x 207.01175pt.
-<figs/Hlp-ideal.png, id=181, 462.528pt x 346.896pt>
+Package pdftex.def Info: figs/Hlp-real.png  used on input line 336.
+(pdftex.def)             Requested size: 345.0pt x 258.76335pt.
+ [10 <./figs/hlp.png>]
+<figs/Hlp-ideal.png, id=204, 462.528pt x 346.896pt>
 File: figs/Hlp-ideal.png Graphic file (type png)
 <use figs/Hlp-ideal.png>
-Package pdftex.def Info: figs/Hlp-ideal.png  used on input line 326.
+Package pdftex.def Info: figs/Hlp-ideal.png  used on input line 342.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
- [9 <./figs/hlp.png> <./figs/Hlp-real.png>]
-<figs/Hbp_impulse.png, id=191, 462.528pt x 346.896pt>
+ [11 <./figs/Hlp-real.png>]
+<figs/Hbp_impulse.png, id=212, 462.528pt x 346.896pt>
 File: figs/Hbp_impulse.png Graphic file (type png)
 <use figs/Hbp_impulse.png>
-Package pdftex.def Info: figs/Hbp_impulse.png  used on input line 347.
-(pdftex.def)             Requested size: 293.2521pt x 219.94832pt.
- [10 <./figs/Hlp-ideal.png>]
-<figs/Hbp_frequency.png, id=201, 462.528pt x 346.896pt>
+Package pdftex.def Info: figs/Hbp_impulse.png  used on input line 366.
+(pdftex.def)             Requested size: 345.0pt x 258.76335pt.
+ [12 <./figs/Hlp-ideal.png>]
+<figs/Hbp_frequency.png, id=224, 462.528pt x 346.896pt>
 File: figs/Hbp_frequency.png Graphic file (type png)
 <use figs/Hbp_frequency.png>
-Package pdftex.def Info: figs/Hbp_frequency.png  used on input line 353.
-(pdftex.def)             Requested size: 293.2521pt x 219.94832pt.
-[11 <./figs/Hbp_impulse.png> <./figs/Hbp_frequency.png>] (./main.aux)
+Package pdftex.def Info: figs/Hbp_frequency.png  used on input line 372.
+(pdftex.def)             Requested size: 345.0pt x 258.76335pt.
+ [13 <./figs/Hbp_impulse.png>] [14 <./figs/Hbp_frequency.png>]
+(./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 4EEF228631B5F71DABEB76D4F09835D2;1674.
  ) 
 Here is how much of TeX's memory you used:
- 43776 strings out of 478287
- 1011306 string characters out of 5849289
- 1497140 words of memory out of 5000000
- 61182 multiletter control sequences out of 15000+600000
- 507151 words of font info for 119 fonts, out of 8000000 for 9000
+ 44056 strings out of 478287
+ 1013530 string characters out of 5849289
+ 1511140 words of memory out of 5000000
+ 61444 multiletter control sequences out of 15000+600000
+ 507469 words of font info for 120 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,15n,96p,523b,472s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,15n,96p,523b,1169s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txf
-onts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyc.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (11 pages, 312536 bytes).
+e/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/tx
+fonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/urw/times/utmri8a.pfb>
+Output written on main.pdf (14 pages, 318966 bytes).
 PDF statistics:
- 263 PDF objects out of 1000 (max. 8388607)
- 205 compressed objects within 3 object streams
- 72 named destinations out of 1000 (max. 500000)
+ 299 PDF objects out of 1000 (max. 8388607)
+ 236 compressed objects within 3 object streams
+ 89 named destinations out of 1000 (max. 500000)
  151 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -169,8 +169,12 @@ H_{a,LP}(s_L) = \frac{0.3125}{s_L^4 + 1.1068s_L^3 + 1.6125s_L^2+0.9140s_L + 0.33
 In \figref{fig3} we plot $|H(j\Omega)|$ using (\ref{lpsqfinal}) and (\ref{lpfinal}), thereby verifying that our low-pass Chebyschev filter design meets the specifications.
 
 Given below is the pole-zero plot of transfer function $|H(j\Omega)|$ from equation$\eqref{lpsqfinal}$:
+\begin{lstlisting}
+	https://github.com/venkatesh11010/Filter-design/blob/main/filter%20design/codes/pole-zero_plot.py
+\end{lstlisting}
+
 \begin{figure}[H]
-\includegraphics[width = 0.9\columnwidth]{figs/pole-zero_plot.png}
+\includegraphics[width = \columnwidth]{figs/pole-zero_plot.png}
 \caption{Pole-zero plot of $H_{a,LP}(j\Omega_L)$}
 \label{fig1}
 \end{figure}
@@ -192,20 +196,28 @@ In \figref{fig4}, we plot $\vert H_{a,BP}(j\Omega)\vert$ as a function of $\Omeg
 well as negative frequencies.  We find that the passband and stopband frequencies in the figure
 match well with those obtained analytically through the bilinear transformation.
 \end{enumerate}
+
+\begin{lstlisting}
+	https://github.com/venkatesh11010/Filter-design/blob/main/filter%20design/codes/fig1.py
+\end{lstlisting}
 \begin{figure}[H]
-\includegraphics[width = 0.9\columnwidth]{figs/fig1.png}
+\includegraphics[width = \columnwidth]{figs/fig1.png}
 \caption{The Analog Low-Pass Frequency Response for $0.35 \leq \epsilon \leq 0.6$}
 \label{fig2}
 \end{figure}
-
+\begin{lstlisting}
+	https://github.com/venkatesh11010/Filter-design/blob/main/filter%20design/codes/fig2.py
+\end{lstlisting}
 \begin{figure}[H]
-\includegraphics[width = 0.9\columnwidth]{figs/fig2.png}
+\includegraphics[width = \columnwidth]{figs/fig2.png}
 \caption{The magnitude response plots from the specifications in Equation \ref{lpsqfinal} and the design in Equation \ref{lpfinal}}
 \label{fig3}
 \end{figure}
-
+\begin{lstlisting}
+	https://github.com/venkatesh11010/Filter-design/blob/main/filter%20design/codes/fig3.py
+\end{lstlisting}
 \begin{figure}[H]
-\includegraphics[width = 0.9\columnwidth]{figs/fig3.png}
+\includegraphics[width = \columnwidth]{figs/fig3.png}
 \caption{The analog bandpass magnitude response plot from Equation \ref{bpfinal}} 
 \label{fig4}
 \end{figure}
@@ -233,7 +245,9 @@ D(z) = 1.7511 -10.6506z^{-1} + 30.9794z^{-2}  -55.1588z^{-3}+  65.4285z^{-4}\non
 \end{eqnarray}
 The plot of $|H_{d,BP}(z)|$ with respect to the normalized angular freqency (normalizing factor $\pi$) is available in \figref{fig5}.  Again we
 find that the passband and stopband frequencies meet the specifications well enough.
-
+\begin{lstlisting}
+	https://github.com/venkatesh11010/Filter-design/blob/main/filter%20design/codes/fig4.py
+\end{lstlisting}
 \begin{figure}[H]
 \includegraphics[width = \columnwidth]{figs/fig4.png}
 \caption{The magnitude response of the bandpass digital filter designed to meet the given specifications} 
@@ -308,16 +322,18 @@ h_{lp}(n) &=& \frac{\sin(\frac{n\pi}{40})}{n\pi} \indent -100 \leq n \leq 100 \n
 &=& 0, \hspace{2cm} \mbox{otherwise}
 \end{eqnarray}
 The impulse  response of the filter in (\ref{firlpfinal}) is shown in \figref{fig6}.
-
+\begin{lstlisting}
+	https://github.com/venkatesh11010/Filter-design/blob/main/filter%20design/codes/fig5.py
+\end{lstlisting}
 \begin{figure}[H]
-\includegraphics[width = 0.8\columnwidth]{figs/hlp.png}
+\includegraphics[width = \columnwidth]{figs/hlp.png}
 \caption{The impulse response of the FIR lowpass digital filter designed to meet the given specifications} 
 \label{fig6}
 \end{figure}
 
 The frequency response of the fourier transform of impulse response in (\ref{firlpfinal}) is shown in \figref{fig7}. 
 \begin{figure}[H]
-\includegraphics[width = 0.8\columnwidth]{figs/Hlp-real.png}
+\includegraphics[width = \columnwidth]{figs/Hlp-real.png}
 \caption{The frequency response of fourier transform of the impulse response}
 \label{fig7}
 \end{figure}
@@ -343,20 +359,20 @@ h_{bp}(n) &=& \frac{2\sin(\frac{n\pi}{40}) \cos(\frac{13n\pi}{60})}{n\pi} \inden
 \end{eqnarray}
 
 The magnitude response of the FIR bandpass filter designed to meet the given specifications is plotted in $\figref{fig9}$.
+\begin{lstlisting}
+	https://github.com/venkatesh11010/Filter-design/blob/main/filter%20design/codes/fig6.py
+\end{lstlisting}
 \begin{figure}[H]
-\includegraphics[width = 0.85\columnwidth]{figs/Hbp_impulse.png}
+\includegraphics[width = \columnwidth]{figs/Hbp_impulse.png}
 \caption{The impulse response of the FIR bandpass digital filter designed to meet the given specifications}
 \label{fig9}
 \end{figure}
 
 \begin{figure}[H]
-\includegraphics[width = 0.85\columnwidth]{figs/Hbp_frequency.png}
+\includegraphics[width = \columnwidth]{figs/Hbp_frequency.png}
 \caption{The frequency response of the fourier transform of impulse response given in fig(9)} 
 \label{fig10}
 \end{figure}
 
 \end{document}
 
-%\begin{thebibliography}
-%\bibitem{proakis} J.G.Proakis
-%\end{thebibliography}
